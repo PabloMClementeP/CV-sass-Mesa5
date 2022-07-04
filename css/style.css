@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: aliceblue;
+  height: 100vh;
+}
+
+h2 {
+  font-family: "Bebas Neue", cursive;
+  margin: 20px 0 0 15px;
+}
+
+td {
+  padding-bottom: 5px;
+}
+
+.picture {
+  margin: 0 auto;
+  display: block;
+  max-width: 180px;
+}
+
+.navegacion-Principal {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+.d-personales {
+  margin-top: 50px;
+}
+
+.top-leters {
+  text-transform: uppercase;
+  background-color: #c4c4c4;
+  color: #005677;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+header {
+  background-image: url("https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_960_720.jpg");
+}
+header nav {
+  text-align: center;
+}
+header li {
+  display: inline;
+  margin-right: 80px;
+}
+header li a:hover {
+  color: aquamarine;
+}
+header .title {
+  text-align: center;
+}
+
+main {
+  width: 95%;
+  margin: 0 auto;
+}
+main table {
+  margin-left: 30px;
+}
+
+footer {
+  background-color: #005677;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 4px 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+footer p {
+  text-transform: uppercase;
+}
+footer a {
+  display: block;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 10px 0;
+}
+footer a img {
+  height: 20px;
+  width: auto;
+  margin-right: 10px;
+}/*# sourceMappingURL=style.css.map */

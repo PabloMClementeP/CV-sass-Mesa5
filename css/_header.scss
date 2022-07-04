@@ -1,0 +1,22 @@
+header{
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_960_720.jpg");
+    
+    nav{
+        text-align: center;
+    }
+    
+    li{
+        display: inline;
+        margin-right: 80px;
+        
+        a{
+            &:hover{
+                color: aquamarine;
+            }
+        }
+    }
+    
+    .title{
+        text-align: center;
+    }
+}

@@ -1,0 +1,30 @@
+footer{
+    background-color: #005677;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 4px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    
+    p{
+        text-transform: uppercase;
+    }
+    
+    
+    a{
+        display: block;
+        color: aliceblue;
+        text-decoration: none;
+        padding: 10px 0;
+
+        img{
+            height: 20px;
+            width: auto;
+            margin-right:10px;
+        }
+    }
+}
+
+
+
